@@ -47,7 +47,7 @@ export default function Home() {
             <img src="logo.svg" alt="AI-Interview Mocker logo" className="w-10 h-10" />
             <span className="ml-2 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">JobPrep AI</span>
           </div>
-          <nav>
+          <nav className='hidden lg:block'>
             <ul className="flex space-x-6">
               <li><a href="#features" className="text-gray-700 hover:text-indigo-600 transition">Features</a></li>
               <li><a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 transition">How it Works</a></li>
@@ -126,18 +126,18 @@ export default function Home() {
         <section id="pricing" className="text-center mb-20">
           <h2 className="text-3xl font-bold mb-10 text-primary">Simple, Transparent Pricing</h2>
           <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
-            <h3 className="text-2xl font-semibold mb-4">Pro Plan</h3>
-            <p className="text-4xl font-bold mb-6">$19<span className="text-xl text-gray-500">/month</span></p>
+            <h3 className="text-2xl font-semibold mb-4 text-black">Pro Plan</h3>
+            <p className="text-4xl font-bold mb-6 text-black">$19<span className="text-xl text-gray-500">/month</span></p>
             <ul className="text-left mb-8">
-              <li className="flex items-center mb-2">
+              <li className="flex items-center mb-2 text-black">
                 <ChevronRight className="text-green-500 mr-2 h-4 w-4" />
                 Unlimited AI-powered mock interviews
               </li>
-              <li className="flex items-center mb-2">
+              <li className="flex items-center mb-2 text-black">
                 <ChevronRight className="text-green-500 mr-2 h-4 w-4" />
                 Personalized feedback and improvement tracking
               </li>
-              <li className="flex items-center mb-2">
+              <li className="flex items-center mb-2 text-black">
                 <ChevronRight className="text-green-500 mr-2 h-4 w-4" />
                 Access to industry-specific question banks
               </li>
