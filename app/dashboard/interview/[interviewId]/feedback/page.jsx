@@ -30,7 +30,7 @@ function Feedback({params}) {
     setFeedbackList(result);
   }
   return (
-    <div className='p-10'>
+    <div className='p-10 max-w-7xl mx-auto'>
 
       {feedbackList.length==0?
       <h2 className='font-bold text-xl text-gray-500'>No Interview feedback Response found</h2>
