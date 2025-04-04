@@ -46,18 +46,17 @@ function Interview({params}) {
             
             <div className="relative z-10 p-6 md:p-10 max-w-7xl mx-auto">
                 {/* Header with User Button */}
-                <div className="flex justify-between items-center mb-8">
+                <div className="flex justify-between mb-8">
                     <div>
                         <h2 className="font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[#FF007A] to-[#00FFFF]">Interview Setup</h2>
                         <h2 className="text-[#B0B0B0] mt-2">Prepare yourself for your AI mock interview session</h2>
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="gap-4 hidden md:block">
                         <Link href="/dashboard">
-                            <Button variant="ghost" className="text-[#B0B0B0] hover:text-white">
+                            <Button variant="ghost" className="text-black bg-white">
                                 Back to Dashboard
                             </Button>
                         </Link>
-                        <UserButton />
                     </div>
                 </div>
 
